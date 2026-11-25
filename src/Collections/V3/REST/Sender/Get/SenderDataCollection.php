@@ -1,0 +1,10 @@
+<?php
+
+declare(strict_types=1);
+
+namespace MailjetSDK\Collections\V3\REST\Sender\Get;
+
+final class SenderDataCollection extends \Dmorenof\SdkRuntime\TypedArray
+{
+    protected string $expected_type = \MailjetSDK\DTOs\Output\Sender::class;
+}
