@@ -7,17 +7,17 @@ namespace MailjetSDK\GetParams\V3\REST;
 final class Dns extends \Dmorenof\SdkRuntime\DTO
 {
     public const array OPERATION_FIELDS = [
-    'path' => [],
-    'query' => [
-        'IsCheckInProgress' => 'IsCheckInProgress',
-        'IsSenderIdentified' => 'IsSenderIdentified',
-        'IsYahooFBL' => 'IsYahooFBL',
-        'MaxLastCheckAt' => 'MaxLastCheckAt',
-        'MinLastCheckAt' => 'MinLastCheckAt',
-        'SPFStatus' => 'SPFStatus',
-    ],
-    'header' => [],
-];
+        'path' => [],
+        'query' => [
+            'IsCheckInProgress' => 'IsCheckInProgress',
+            'IsSenderIdentified' => 'IsSenderIdentified',
+            'IsYahooFBL' => 'IsYahooFBL',
+            'MaxLastCheckAt' => 'MaxLastCheckAt',
+            'MinLastCheckAt' => 'MinLastCheckAt',
+            'SPFStatus' => 'SPFStatus',
+        ],
+        'header' => [],
+    ];
 
     public ?bool $IsCheckInProgress;
     public ?bool $IsSenderIdentified;

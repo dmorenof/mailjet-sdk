@@ -65,5 +65,4 @@ final class Send extends \MailjetSDK\Client
         $result = $this->executeArguments(self::operation(self::POST), path: ['draft_ID' => $draft_ID]);
         return $result;
     }
-
 }

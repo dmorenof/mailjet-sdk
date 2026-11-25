@@ -7,11 +7,11 @@ namespace MailjetSDK\DTOs\Output\SendAPIv31Send;
 final class CcDTO extends \Dmorenof\SdkRuntime\DTO
 {
     protected const array READ_ONLY_FIELDS = [
-    'Email',
-    'MessageHref',
-    'MessageID',
-    'MessageUUID',
-];
+        'Email',
+        'MessageHref',
+        'MessageID',
+        'MessageUUID',
+    ];
 
     /**
      * The email address of this recipient.

@@ -7,8 +7,8 @@ namespace MailjetSDK\DTOs\GetV3;
 final class CsvimportIdPathParams extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'importjob_ID',
-];
+        'importjob_ID',
+    ];
 
     /**
      * Unique numeric ID of the import job you want to retrieve.

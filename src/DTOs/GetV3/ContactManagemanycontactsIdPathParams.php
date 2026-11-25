@@ -7,8 +7,8 @@ namespace MailjetSDK\DTOs\GetV3;
 final class ContactManagemanycontactsIdPathParams extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'job_ID',
-];
+        'job_ID',
+    ];
 
     /**
      * Unique numeric `JobID` returned after a `POST /contact/managemanycontacts` request. Use it to monitor the progress and success of the request.

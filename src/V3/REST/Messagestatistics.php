@@ -34,5 +34,4 @@ final class Messagestatistics extends \MailjetSDK\MailjetAPISDK
     {
         return self::client()->resource(\MailjetSDK\Resources\V3\REST\Messagestatistics::class)->getByMessageID($message_ID);
     }
-
 }

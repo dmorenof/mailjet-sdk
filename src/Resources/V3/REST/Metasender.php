@@ -254,5 +254,4 @@ final class Metasender extends \MailjetSDK\Client
         $result = $this->executeBody(self::operation(self::PUT_BY_METASENDER_ID), $payload, path: ['metasender_ID' => $metasender_ID]);
         return $result;
     }
-
 }

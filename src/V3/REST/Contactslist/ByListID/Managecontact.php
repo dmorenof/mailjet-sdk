@@ -16,5 +16,4 @@ final class Managecontact extends \MailjetSDK\MailjetAPISDK
     {
         return self::client()->resource(\MailjetSDK\Resources\V3\REST\Contactslist\ByListID\Managecontact::class)->post($list_ID, $payload);
     }
-
 }

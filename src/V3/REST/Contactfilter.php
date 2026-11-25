@@ -66,5 +66,4 @@ final class Contactfilter extends \MailjetSDK\MailjetAPISDK
     {
         return self::client()->resource(\MailjetSDK\Resources\V3\REST\Contactfilter::class)->putByContactfilterID($contactfilter_ID, $payload);
     }
-
 }

@@ -7,8 +7,8 @@ namespace MailjetSDK\DTOs\GetV3;
 final class CampaignoverviewIdPathParams extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'ID',
-];
+        'ID',
+    ];
 
     /**
      * A combination of the `IDType` and the unique numeric ID of the object you want to retrieve, separated with a vertical line. E.g. `Campaign|1234`.

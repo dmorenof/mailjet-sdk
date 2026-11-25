@@ -21,5 +21,4 @@ final class Test extends \MailjetSDK\MailjetAPISDK
         }
         return self::client()->resource(\MailjetSDK\Resources\V3\REST\Newsletter\ByNewsletterID\Test::class)->post($newsletter_ID, $payload);
     }
-
 }

@@ -10,8 +10,8 @@ namespace MailjetSDK\DTOs\NewSendAPIv31Send\MessagesItem;
 final class ReplyToDTO extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'Email',
-];
+        'Email',
+    ];
 
     /**
      * The reply-to email address.

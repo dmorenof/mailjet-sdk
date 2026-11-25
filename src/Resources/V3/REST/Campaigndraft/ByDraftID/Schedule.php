@@ -249,5 +249,4 @@ final class Schedule extends \MailjetSDK\Client
         $result = $this->executeBody(self::operation(self::PUT), $payload, path: ['draft_ID' => $draft_ID]);
         return $result;
     }
-
 }

@@ -41,5 +41,4 @@ final class Campaign extends \MailjetSDK\MailjetAPISDK
     {
         return self::client()->resource(\MailjetSDK\Resources\V3\REST\Campaign::class)->putByCampaignID($campaign_ID, $payload);
     }
-
 }

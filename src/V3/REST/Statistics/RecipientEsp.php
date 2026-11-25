@@ -17,5 +17,4 @@ final class RecipientEsp extends \MailjetSDK\MailjetAPISDK
     {
         return self::client()->resource(\MailjetSDK\Resources\V3\REST\Statistics\RecipientEsp::class)->get($params);
     }
-
 }

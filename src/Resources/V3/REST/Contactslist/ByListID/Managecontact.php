@@ -71,5 +71,4 @@ final class Managecontact extends \MailjetSDK\Client
         $result = $this->executeBody(self::operation(self::POST), $payload, path: ['list_ID' => $list_ID]);
         return $result;
     }
-
 }

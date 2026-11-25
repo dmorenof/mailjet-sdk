@@ -7,12 +7,12 @@ namespace MailjetSDK\DTOs\Output\SendAPIv31Send;
 final class ErrorsDTO extends \Dmorenof\SdkRuntime\DTO
 {
     protected const array READ_ONLY_FIELDS = [
-    'ErrorCode',
-    'ErrorIdentifier',
-    'ErrorMessage',
-    'ErrorRelatedTo',
-    'StatusCode',
-];
+        'ErrorCode',
+        'ErrorIdentifier',
+        'ErrorMessage',
+        'ErrorRelatedTo',
+        'StatusCode',
+    ];
 
     /**
      * An internal Mailjet error code for this error. See [Send API Errors](/docs/email-api/send-api-v31/send-api-errors) for more information.

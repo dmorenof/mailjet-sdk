@@ -62,5 +62,4 @@ final class Getcontactslists extends \MailjetSDK\Client
         $result = $this->executeArguments(self::operation(self::GET), path: ['contact_ID' => $contact_ID]);
         return $result;
     }
-
 }

@@ -27,5 +27,4 @@ final class Verify extends \MailjetSDK\MailjetAPISDK
     {
         return self::client()->resource(\MailjetSDK\Resources\V3\REST\Contactslist\ByListID\Verify::class)->getByJobID($identifier);
     }
-
 }

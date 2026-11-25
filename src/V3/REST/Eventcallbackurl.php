@@ -69,5 +69,4 @@ final class Eventcallbackurl extends \MailjetSDK\MailjetAPISDK
     {
         return self::client()->resource(\MailjetSDK\Resources\V3\REST\Eventcallbackurl::class)->putByUrlID($url_ID, $payload);
     }
-
 }

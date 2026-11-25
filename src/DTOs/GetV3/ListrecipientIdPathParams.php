@@ -7,8 +7,8 @@ namespace MailjetSDK\DTOs\GetV3;
 final class ListrecipientIdPathParams extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'listrecipient_ID',
-];
+        'listrecipient_ID',
+    ];
 
     /**
      * Unique numeric ID of the list recipient.

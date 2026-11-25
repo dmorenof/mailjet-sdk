@@ -67,5 +67,4 @@ final class Apikeytotals extends \MailjetSDK\Client
         $result = $this->executeOperation(self::operation(self::GET));
         return $result;
     }
-
 }

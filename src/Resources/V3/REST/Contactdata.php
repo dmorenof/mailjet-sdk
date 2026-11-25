@@ -240,5 +240,4 @@ final class Contactdata extends \MailjetSDK\Client
         $result = $this->executeBody(self::operation(self::PUT_BY_CONTACT_ID), $payload, path: ['contact_ID' => $contact_ID]);
         return $result;
     }
-
 }

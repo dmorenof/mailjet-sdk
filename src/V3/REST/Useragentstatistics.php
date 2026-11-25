@@ -19,5 +19,4 @@ final class Useragentstatistics extends \MailjetSDK\MailjetAPISDK
     {
         return self::client()->resource(\MailjetSDK\Resources\V3\REST\Useragentstatistics::class)->get($params);
     }
-
 }

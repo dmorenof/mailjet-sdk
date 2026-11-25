@@ -309,5 +309,4 @@ final class Parseroute extends \MailjetSDK\Client
         $result = $this->executeBody(self::operation(self::PUT_BY_PARSEROUTE_ID), $payload, path: ['parseroute_ID' => $parseroute_ID]);
         return $result;
     }
-
 }

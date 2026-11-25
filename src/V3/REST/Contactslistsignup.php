@@ -27,5 +27,4 @@ final class Contactslistsignup extends \MailjetSDK\MailjetAPISDK
     {
         return self::client()->resource(\MailjetSDK\Resources\V3\REST\Contactslistsignup::class)->getBySignuprequestID($signuprequest_ID);
     }
-
 }

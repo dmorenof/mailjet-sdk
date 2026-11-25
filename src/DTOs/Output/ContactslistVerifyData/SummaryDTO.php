@@ -11,5 +11,4 @@ final class SummaryDTO extends \Dmorenof\SdkRuntime\DTO
 {
     public \MailjetSDK\DTOs\Output\ContactslistVerifyData\Summary\ResultDTO $result;
     public \MailjetSDK\DTOs\Output\ContactslistVerifyData\Summary\RiskDTO $risk;
-
 }

@@ -57,5 +57,4 @@ final class Schedule extends \MailjetSDK\MailjetAPISDK
     {
         return self::client()->resource(\MailjetSDK\Resources\V3\REST\Newsletter\ByNewsletterID\Schedule::class)->put($newsletter_ID, $payload);
     }
-
 }

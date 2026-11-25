@@ -60,5 +60,4 @@ final class Detailcontent extends \MailjetSDK\MailjetAPISDK
     {
         return self::client()->resource(\MailjetSDK\Resources\V3\REST\Newsletter\ByNewsletterID\Detailcontent::class)->put($newsletter_ID, $payload);
     }
-
 }

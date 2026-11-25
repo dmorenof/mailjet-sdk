@@ -7,8 +7,8 @@ namespace MailjetSDK\DTOs\GetV3;
 final class CampaigndraftIdSchedulePathParams extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'draft_ID',
-];
+        'draft_ID',
+    ];
 
     /**
      * Unique numeric ID of the campaign draft you want to retrieve the sending schedule of.

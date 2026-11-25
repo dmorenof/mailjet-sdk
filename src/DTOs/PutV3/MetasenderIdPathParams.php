@@ -7,8 +7,8 @@ namespace MailjetSDK\DTOs\PutV3;
 final class MetasenderIdPathParams extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'metasender_ID',
-];
+        'metasender_ID',
+    ];
 
     /**
      * Unique numeric ID of the metasender object you want to update.

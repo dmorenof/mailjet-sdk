@@ -7,5 +7,4 @@ namespace MailjetSDK\DTOs;
 final class NewContactslist extends \MailjetSDK\DTOs\Base\Contactslist
 {
     public const array REQUIRED_FIELDS = [];
-
 }

@@ -7,8 +7,8 @@ namespace MailjetSDK\DTOs;
 final class NewSender extends \MailjetSDK\DTOs\Base\Sender
 {
     public const array REQUIRED_FIELDS = [
-    'Email',
-];
+        'Email',
+    ];
 
     /**
      * The email address or domain for this sender.

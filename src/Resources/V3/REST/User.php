@@ -125,5 +125,4 @@ final class User extends \MailjetSDK\Client
         $result = $this->executeBody(self::operation(self::PUT), $payload);
         return $result;
     }
-
 }

@@ -21,5 +21,4 @@ final class Graphstatistics extends \MailjetSDK\MailjetAPISDK
     {
         return self::client()->resource(\MailjetSDK\Resources\V3\REST\Graphstatistics::class)->get($params);
     }
-
 }

@@ -16,5 +16,4 @@ final class Send extends \MailjetSDK\MailjetAPISDK
     {
         return self::client()->resource(\MailjetSDK\Resources\V3\Send::class)->post($payload);
     }
-
 }

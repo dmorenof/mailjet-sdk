@@ -65,5 +65,4 @@ final class Check extends \MailjetSDK\Client
         $result = $this->executeArguments(self::operation(self::POST), path: ['dns_ID' => $dns_ID]);
         return $result;
     }
-
 }

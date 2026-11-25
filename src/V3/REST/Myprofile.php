@@ -27,5 +27,4 @@ final class Myprofile extends \MailjetSDK\MailjetAPISDK
     {
         return self::client()->resource(\MailjetSDK\Resources\V3\REST\Myprofile::class)->put($payload);
     }
-
 }

@@ -18,5 +18,4 @@ final class Status extends \MailjetSDK\MailjetAPISDK
     {
         return self::client()->resource(\MailjetSDK\Resources\V3\REST\Newsletter\ByNewsletterID\Status::class)->get($newsletter_ID);
     }
-
 }

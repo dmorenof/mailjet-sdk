@@ -60,5 +60,4 @@ final class Template extends \MailjetSDK\MailjetAPISDK
     {
         return self::client()->resource(\MailjetSDK\Resources\V3\REST\Template::class)->putByTemplateID($template_ID, $payload);
     }
-
 }

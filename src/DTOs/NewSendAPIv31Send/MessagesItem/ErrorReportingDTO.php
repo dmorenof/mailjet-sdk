@@ -10,8 +10,8 @@ namespace MailjetSDK\DTOs\NewSendAPIv31Send\MessagesItem;
 final class ErrorReportingDTO extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'Email',
-];
+        'Email',
+    ];
 
     /**
      * The email address, to which the carbon copy of the email with the error message will be sent.

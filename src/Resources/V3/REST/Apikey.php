@@ -248,5 +248,4 @@ final class Apikey extends \MailjetSDK\Client
         $result = $this->executeBody(self::operation(self::PUT_BY_APIKEY_ID), $payload, path: ['apikey_ID' => $apikey_ID]);
         return $result;
     }
-
 }

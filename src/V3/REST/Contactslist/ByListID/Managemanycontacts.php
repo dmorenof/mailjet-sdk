@@ -27,5 +27,4 @@ final class Managemanycontacts extends \MailjetSDK\MailjetAPISDK
     {
         return self::client()->resource(\MailjetSDK\Resources\V3\REST\Contactslist\ByListID\Managemanycontacts::class)->getByJobID($identifier);
     }
-
 }

@@ -7,8 +7,8 @@ namespace MailjetSDK\DTOs;
 final class NewNewsletterSchedule extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'Date',
-];
+        'Date',
+    ];
 
     /**
      * The timestamp, when the newsletter will be sent out. Use `Now` to send immediately.

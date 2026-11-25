@@ -315,5 +315,4 @@ final class Eventcallbackurl extends \MailjetSDK\Client
         $result = $this->executeBody(self::operation(self::PUT_BY_URL_ID), $payload, path: ['url_ID' => $url_ID]);
         return $result;
     }
-
 }

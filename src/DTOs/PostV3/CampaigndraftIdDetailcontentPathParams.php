@@ -7,8 +7,8 @@ namespace MailjetSDK\DTOs\PostV3;
 final class CampaigndraftIdDetailcontentPathParams extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'draft_ID',
-];
+        'draft_ID',
+    ];
 
     /**
      * Unique numeric ID for the campaign draft you want to manage the content for.

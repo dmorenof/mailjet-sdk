@@ -185,5 +185,4 @@ final class Campaign extends \MailjetSDK\Client
         $result = $this->executeBody(self::operation(self::PUT_BY_CAMPAIGN_ID), $payload, path: ['campaign_ID' => $campaign_ID]);
         return $result;
     }
-
 }

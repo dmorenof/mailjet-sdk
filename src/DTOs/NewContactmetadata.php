@@ -7,15 +7,15 @@ namespace MailjetSDK\DTOs;
 final class NewContactmetadata extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'Name',
-];
+        'Name',
+    ];
 
     protected const array PROPERTY_MAP = [
-    'NameSpace' => 'NameSpace_',
-];
+        'NameSpace' => 'NameSpace_',
+    ];
     protected const array WIRE_PROPERTY_MAP = [
-    'NameSpace_' => 'NameSpace',
-];
+        'NameSpace_' => 'NameSpace',
+    ];
 
     /**
      * Indicates the type of data accepted for this contact property:

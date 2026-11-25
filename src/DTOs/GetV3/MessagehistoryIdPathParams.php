@@ -7,8 +7,8 @@ namespace MailjetSDK\DTOs\GetV3;
 final class MessagehistoryIdPathParams extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'message_ID',
-];
+        'message_ID',
+    ];
 
     /**
      * Unique numeric ID of the message, whose event history you want to retrieve.

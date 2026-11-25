@@ -7,9 +7,9 @@ namespace MailjetSDK\DTOs;
 final class NewContactslistManageManyContacts extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'Action',
-    'Contacts',
-];
+        'Action',
+        'Contacts',
+    ];
 
     /**
      * Action to be performed on the contacts for this list:

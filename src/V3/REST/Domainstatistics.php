@@ -21,5 +21,4 @@ final class Domainstatistics extends \MailjetSDK\MailjetAPISDK
     {
         return self::client()->resource(\MailjetSDK\Resources\V3\REST\Domainstatistics::class)->get($params);
     }
-
 }

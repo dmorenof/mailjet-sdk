@@ -7,10 +7,10 @@ namespace MailjetSDK\DTOs\NewSendAPIv31Send\MessagesItem;
 final class InlinedAttachmentsDTO extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'Base64Content',
-    'ContentType',
-    'Filename',
-];
+        'Base64Content',
+        'ContentType',
+        'Filename',
+    ];
 
     /**
      * Base64 encoded content of the attached file.

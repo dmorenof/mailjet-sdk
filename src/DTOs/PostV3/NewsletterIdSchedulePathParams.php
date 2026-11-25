@@ -7,8 +7,8 @@ namespace MailjetSDK\DTOs\PostV3;
 final class NewsletterIdSchedulePathParams extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'newsletter_ID',
-];
+        'newsletter_ID',
+    ];
 
     /**
      * Unique numeric ID for the newsletter you want to schedule.

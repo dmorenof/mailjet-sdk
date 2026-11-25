@@ -62,5 +62,4 @@ final class Messagehistory extends \MailjetSDK\Client
         $result = $this->executeArguments(self::operation(self::GET_BY_MESSAGE_ID), path: ['message_ID' => $message_ID]);
         return $result;
     }
-
 }

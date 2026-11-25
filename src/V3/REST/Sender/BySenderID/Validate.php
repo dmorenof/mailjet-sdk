@@ -16,5 +16,4 @@ final class Validate extends \MailjetSDK\MailjetAPISDK
     {
         return self::client()->resource(\MailjetSDK\Resources\V3\REST\Sender\BySenderID\Validate::class)->post($sender_ID);
     }
-
 }

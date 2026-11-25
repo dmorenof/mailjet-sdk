@@ -49,5 +49,4 @@ final class Schedule extends \MailjetSDK\MailjetAPISDK
     {
         return self::client()->resource(\MailjetSDK\Resources\V3\REST\Campaigndraft\ByDraftID\Schedule::class)->put($draft_ID, $payload);
     }
-
 }

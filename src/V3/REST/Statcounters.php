@@ -17,5 +17,4 @@ final class Statcounters extends \MailjetSDK\MailjetAPISDK
     {
         return self::client()->resource(\MailjetSDK\Resources\V3\REST\Statcounters::class)->get($params);
     }
-
 }

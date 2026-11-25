@@ -7,18 +7,18 @@ namespace MailjetSDK\GetParams\V3\REST;
 final class Bouncestatistics extends \Dmorenof\SdkRuntime\DTO
 {
     public const array OPERATION_FIELDS = [
-    'path' => [],
-    'query' => [
-        'CampaignID' => 'CampaignID',
-        'ContactsList' => 'ContactsList',
-        'EventFromTs' => 'EventFromTs',
-        'EventToTs' => 'EventToTs',
-        'FromTS' => 'FromTS',
-        'Period' => 'Period',
-        'ToTS' => 'ToTS',
-    ],
-    'header' => [],
-];
+        'path' => [],
+        'query' => [
+            'CampaignID' => 'CampaignID',
+            'ContactsList' => 'ContactsList',
+            'EventFromTs' => 'EventFromTs',
+            'EventToTs' => 'EventToTs',
+            'FromTS' => 'FromTS',
+            'Period' => 'Period',
+            'ToTS' => 'ToTS',
+        ],
+        'header' => [],
+    ];
 
     public ?int $CampaignID;
     public ?int $ContactsList;

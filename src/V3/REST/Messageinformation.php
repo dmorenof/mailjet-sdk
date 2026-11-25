@@ -27,5 +27,4 @@ final class Messageinformation extends \MailjetSDK\MailjetAPISDK
     {
         return self::client()->resource(\MailjetSDK\Resources\V3\REST\Messageinformation::class)->getByMessageID($message_ID);
     }
-
 }

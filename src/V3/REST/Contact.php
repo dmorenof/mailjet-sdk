@@ -49,5 +49,4 @@ final class Contact extends \MailjetSDK\MailjetAPISDK
     {
         return self::client()->resource(\MailjetSDK\Resources\V3\REST\Contact::class)->putByContactID($contact_ID, $payload);
     }
-
 }

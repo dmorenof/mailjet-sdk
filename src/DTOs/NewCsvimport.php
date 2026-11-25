@@ -7,9 +7,9 @@ namespace MailjetSDK\DTOs;
 final class NewCsvimport extends \MailjetSDK\DTOs\Base\Csvimport
 {
     public const array REQUIRED_FIELDS = [
-    'ContactsListID',
-    'DataID',
-];
+        'ContactsListID',
+        'DataID',
+    ];
 
     /**
      * Unique numeric ID of the list, where you want to use the uploaded CSV data. Interchangeable with ContactsListAlt.

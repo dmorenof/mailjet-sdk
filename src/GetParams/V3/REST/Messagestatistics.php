@@ -7,30 +7,30 @@ namespace MailjetSDK\GetParams\V3\REST;
 final class Messagestatistics extends \Dmorenof\SdkRuntime\DTO
 {
     public const array OPERATION_FIELDS = [
-    'path' => [],
-    'query' => [
-        'CampaignID' => 'CampaignID',
-        'ContactEmail' => 'ContactEmail',
-        'ContactID' => 'ContactID',
-        'ContactListID' => 'ContactListID',
-        'ContactsList' => 'ContactsList',
-        'CustomCampaign' => 'CustomCampaign',
-        'From' => 'From',
-        'FromDomain' => 'FromDomain',
-        'FromID' => 'FromID',
-        'FromTS' => 'FromTS',
-        'FromType' => 'FromType',
-        'IsDeleted' => 'IsDeleted',
-        'IsNewsletterTool' => 'IsNewsletterTool',
-        'IsStarred' => 'IsStarred',
-        'MessageStatus' => 'MessageStatus',
-        'Period' => 'Period',
-        'ProcessTotalClicksCount' => 'ProcessTotalClicksCount',
-        'ProcessTotalOpensCount' => 'ProcessTotalOpensCount',
-        'ToTS' => 'ToTS',
-    ],
-    'header' => [],
-];
+        'path' => [],
+        'query' => [
+            'CampaignID' => 'CampaignID',
+            'ContactEmail' => 'ContactEmail',
+            'ContactID' => 'ContactID',
+            'ContactListID' => 'ContactListID',
+            'ContactsList' => 'ContactsList',
+            'CustomCampaign' => 'CustomCampaign',
+            'From' => 'From',
+            'FromDomain' => 'FromDomain',
+            'FromID' => 'FromID',
+            'FromTS' => 'FromTS',
+            'FromType' => 'FromType',
+            'IsDeleted' => 'IsDeleted',
+            'IsNewsletterTool' => 'IsNewsletterTool',
+            'IsStarred' => 'IsStarred',
+            'MessageStatus' => 'MessageStatus',
+            'Period' => 'Period',
+            'ProcessTotalClicksCount' => 'ProcessTotalClicksCount',
+            'ProcessTotalOpensCount' => 'ProcessTotalOpensCount',
+            'ToTS' => 'ToTS',
+        ],
+        'header' => [],
+    ];
 
     public ?int $CampaignID;
     public ?string $ContactEmail;

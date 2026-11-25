@@ -7,8 +7,8 @@ namespace MailjetSDK\DTOs;
 final class NewParseroute extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'Url',
-];
+        'Url',
+    ];
 
     /**
      * Unique numeric API Key ID to whom this object belongs.

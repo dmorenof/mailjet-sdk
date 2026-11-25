@@ -7,8 +7,8 @@ namespace MailjetSDK\DTOs\DeleteV3;
 final class SenderIdPathParams extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'sender_ID',
-];
+        'sender_ID',
+    ];
 
     /**
      * Unique numeric ID for the sender you want to delete.

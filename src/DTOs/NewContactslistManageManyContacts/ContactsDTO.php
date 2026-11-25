@@ -7,8 +7,8 @@ namespace MailjetSDK\DTOs\NewContactslistManageManyContacts;
 final class ContactsDTO extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'Email',
-];
+        'Email',
+    ];
 
     /**
      * The email address for the contact.

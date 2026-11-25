@@ -7,18 +7,18 @@ namespace MailjetSDK\GetParams\V3\REST;
 final class Template extends \Dmorenof\SdkRuntime\DTO
 {
     public const array OPERATION_FIELDS = [
-    'path' => [],
-    'query' => [
-        'Categories' => 'Categories',
-        'CategoriesSelectionMethod' => 'CategoriesSelectionMethod',
-        'EditMode' => 'EditMode',
-        'Name' => 'Name',
-        'OwnerType' => 'OwnerType',
-        'Purposes' => 'Purposes',
-        'PurposesSelectionMethod' => 'PurposesSelectionMethod',
-    ],
-    'header' => [],
-];
+        'path' => [],
+        'query' => [
+            'Categories' => 'Categories',
+            'CategoriesSelectionMethod' => 'CategoriesSelectionMethod',
+            'EditMode' => 'EditMode',
+            'Name' => 'Name',
+            'OwnerType' => 'OwnerType',
+            'Purposes' => 'Purposes',
+            'PurposesSelectionMethod' => 'PurposesSelectionMethod',
+        ],
+        'header' => [],
+    ];
 
     public ?string $Categories;
     public ?string $CategoriesSelectionMethod;

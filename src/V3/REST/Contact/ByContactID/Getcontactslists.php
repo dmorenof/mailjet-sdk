@@ -16,5 +16,4 @@ final class Getcontactslists extends \MailjetSDK\MailjetAPISDK
     {
         return self::client()->resource(\MailjetSDK\Resources\V3\REST\Contact\ByContactID\Getcontactslists::class)->get($contact_ID);
     }
-
 }

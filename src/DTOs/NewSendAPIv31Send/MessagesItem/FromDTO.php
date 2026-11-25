@@ -17,8 +17,8 @@ namespace MailjetSDK\DTOs\NewSendAPIv31Send\MessagesItem;
 final class FromDTO extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'Email',
-];
+        'Email',
+    ];
 
     /**
      * The `From` email address.

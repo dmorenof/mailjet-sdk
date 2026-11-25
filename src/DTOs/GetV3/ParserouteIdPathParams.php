@@ -7,8 +7,8 @@ namespace MailjetSDK\DTOs\GetV3;
 final class ParserouteIdPathParams extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'parseroute_ID',
-];
+        'parseroute_ID',
+    ];
 
     /**
      * Unique numeric ID for this parseroute object. Alternatively, you can use the email address associated with this object. Keep in mind that the email address needs to be URL encoded.

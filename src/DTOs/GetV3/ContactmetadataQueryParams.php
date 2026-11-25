@@ -7,11 +7,11 @@ namespace MailjetSDK\DTOs\GetV3;
 final class ContactmetadataQueryParams extends \Dmorenof\SdkRuntime\DTO
 {
     protected const array PROPERTY_MAP = [
-    'Namespace' => 'Namespace_',
-];
+        'Namespace' => 'Namespace_',
+    ];
     protected const array WIRE_PROPERTY_MAP = [
-    'Namespace_' => 'Namespace',
-];
+        'Namespace_' => 'Namespace',
+    ];
 
     /**
      * Retrieves only properties with the respective data type:

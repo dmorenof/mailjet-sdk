@@ -16,5 +16,4 @@ final class Check extends \MailjetSDK\MailjetAPISDK
     {
         return self::client()->resource(\MailjetSDK\Resources\V3\REST\Dns\ByDnsID\Check::class)->post($dns_ID);
     }
-
 }

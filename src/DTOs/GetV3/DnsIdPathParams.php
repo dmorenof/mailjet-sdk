@@ -7,8 +7,8 @@ namespace MailjetSDK\DTOs\GetV3;
 final class DnsIdPathParams extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'dns_ID',
-];
+        'dns_ID',
+    ];
 
     /**
      * Unique numeric ID of the domain settings object you want to retrieve.

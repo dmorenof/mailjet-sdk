@@ -17,5 +17,4 @@ final class LinkClick extends \MailjetSDK\MailjetAPISDK
     {
         return self::client()->resource(\MailjetSDK\Resources\V3\REST\Statistics\LinkClick::class)->get($params);
     }
-
 }

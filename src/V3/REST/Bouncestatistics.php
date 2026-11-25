@@ -30,5 +30,4 @@ final class Bouncestatistics extends \MailjetSDK\MailjetAPISDK
     {
         return self::client()->resource(\MailjetSDK\Resources\V3\REST\Bouncestatistics::class)->getByMessageID($message_ID);
     }
-
 }

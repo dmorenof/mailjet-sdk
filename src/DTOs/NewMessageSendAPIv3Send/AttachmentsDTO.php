@@ -7,17 +7,17 @@ namespace MailjetSDK\DTOs\NewMessageSendAPIv3Send;
 final class AttachmentsDTO extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'Content',
-    'ContentType',
-    'Filename',
-];
+        'Content',
+        'ContentType',
+        'Filename',
+    ];
 
     protected const array PROPERTY_MAP = [
-    'Content-type' => 'ContentType',
-];
+        'Content-type' => 'ContentType',
+    ];
     protected const array WIRE_PROPERTY_MAP = [
-    'ContentType' => 'Content-type',
-];
+        'ContentType' => 'Content-type',
+    ];
 
     /**
      * Base64 encoded content of the attached file.

@@ -7,8 +7,8 @@ namespace MailjetSDK\DTOs\DeleteV3;
 final class ContactslistIdPathParams extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'list_ID',
-];
+        'list_ID',
+    ];
 
     /**
      * Unique numeric ID assigned to this contact list.

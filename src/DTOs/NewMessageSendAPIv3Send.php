@@ -7,41 +7,41 @@ namespace MailjetSDK\DTOs;
 final class NewMessageSendAPIv3Send extends \Dmorenof\SdkRuntime\DTO
 {
     protected const array PROPERTY_MAP = [
-    'Html-part' => 'HtmlPart',
-    'Mj-CustomID' => 'MjCustomID',
-    'Mj-EventPayload' => 'MjEventPayload',
-    'Mj-TemplateErrorDeliver' => 'MjTemplateErrorDeliver',
-    'Mj-TemplateErrorReporting' => 'MjTemplateErrorReporting',
-    'Mj-TemplateID' => 'MjTemplateID',
-    'Mj-TemplateLanguage' => 'MjTemplateLanguage',
-    'Mj-campaign' => 'MjCampaign',
-    'Mj-deduplicatecampaign' => 'MjDeduplicatecampaign',
-    'Mj-prio' => 'MjPrio',
-    'Mj-trackclick' => 'MjTrackclick',
-    'Mj-trackopen' => 'MjTrackopen',
-    'Text-part' => 'TextPart',
-];
+        'Html-part' => 'HtmlPart',
+        'Mj-CustomID' => 'MjCustomID',
+        'Mj-EventPayload' => 'MjEventPayload',
+        'Mj-TemplateErrorDeliver' => 'MjTemplateErrorDeliver',
+        'Mj-TemplateErrorReporting' => 'MjTemplateErrorReporting',
+        'Mj-TemplateID' => 'MjTemplateID',
+        'Mj-TemplateLanguage' => 'MjTemplateLanguage',
+        'Mj-campaign' => 'MjCampaign',
+        'Mj-deduplicatecampaign' => 'MjDeduplicatecampaign',
+        'Mj-prio' => 'MjPrio',
+        'Mj-trackclick' => 'MjTrackclick',
+        'Mj-trackopen' => 'MjTrackopen',
+        'Text-part' => 'TextPart',
+    ];
     protected const array WIRE_PROPERTY_MAP = [
-    'HtmlPart' => 'Html-part',
-    'MjCustomID' => 'Mj-CustomID',
-    'MjEventPayload' => 'Mj-EventPayload',
-    'MjTemplateErrorDeliver' => 'Mj-TemplateErrorDeliver',
-    'MjTemplateErrorReporting' => 'Mj-TemplateErrorReporting',
-    'MjTemplateID' => 'Mj-TemplateID',
-    'MjTemplateLanguage' => 'Mj-TemplateLanguage',
-    'MjCampaign' => 'Mj-campaign',
-    'MjDeduplicatecampaign' => 'Mj-deduplicatecampaign',
-    'MjPrio' => 'Mj-prio',
-    'MjTrackclick' => 'Mj-trackclick',
-    'MjTrackopen' => 'Mj-trackopen',
-    'TextPart' => 'Text-part',
-];
+        'HtmlPart' => 'Html-part',
+        'MjCustomID' => 'Mj-CustomID',
+        'MjEventPayload' => 'Mj-EventPayload',
+        'MjTemplateErrorDeliver' => 'Mj-TemplateErrorDeliver',
+        'MjTemplateErrorReporting' => 'Mj-TemplateErrorReporting',
+        'MjTemplateID' => 'Mj-TemplateID',
+        'MjTemplateLanguage' => 'Mj-TemplateLanguage',
+        'MjCampaign' => 'Mj-campaign',
+        'MjDeduplicatecampaign' => 'Mj-deduplicatecampaign',
+        'MjPrio' => 'Mj-prio',
+        'MjTrackclick' => 'Mj-trackclick',
+        'MjTrackopen' => 'Mj-trackopen',
+        'TextPart' => 'Text-part',
+    ];
 
     protected const array VALIDATION = [
-    'MjCustomID' => [
-        'maxLength' => 64,
-    ],
-];
+        'MjCustomID' => [
+            'maxLength' => 64,
+        ],
+    ];
 
     /**
      * A JSON object containing descriptions of the files attached to this message. Contains the Filename, Content type and Base64 encoded content of the file. The total size of the API call payload - including all attachments, inline attachments and message content - should not exceed 15 MB.

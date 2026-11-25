@@ -27,5 +27,4 @@ final class Importlist extends \MailjetSDK\MailjetAPISDK
     {
         return self::client()->resource(\MailjetSDK\Resources\V3\REST\Contactslist\ByListID\Importlist::class)->getByJobID($identifier);
     }
-
 }

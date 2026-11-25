@@ -129,5 +129,4 @@ final class Campaignstatistics extends \MailjetSDK\Client
         $result = $this->executeArguments(self::operation(self::GET_BY_CAMPAIGN_ID), path: ['campaign_ID' => $campaign_ID]);
         return $result;
     }
-
 }

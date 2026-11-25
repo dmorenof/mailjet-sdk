@@ -7,8 +7,8 @@ namespace MailjetSDK\DTOs\PutV3;
 final class ContactIdPathParams extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'contact_ID',
-];
+        'contact_ID',
+    ];
 
     /**
      * Unique numeric ID of the contact you want to update.

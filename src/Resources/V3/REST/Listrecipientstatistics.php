@@ -119,5 +119,4 @@ final class Listrecipientstatistics extends \MailjetSDK\Client
         $result = $this->executeArguments(self::operation(self::GET_BY_LISTRECIPIENT_ID), path: ['listrecipient_ID' => $listrecipient_ID]);
         return $result;
     }
-
 }

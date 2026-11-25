@@ -131,5 +131,4 @@ final class Managemanycontacts extends \MailjetSDK\Client
         $result = $this->executeArguments(self::operation(self::GET_BY_JOB_ID), path: ['job_ID' => $job_ID]);
         return $result;
     }
-
 }

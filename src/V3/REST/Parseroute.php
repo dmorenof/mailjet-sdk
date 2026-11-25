@@ -63,5 +63,4 @@ final class Parseroute extends \MailjetSDK\MailjetAPISDK
     {
         return self::client()->resource(\MailjetSDK\Resources\V3\REST\Parseroute::class)->putByParserouteID($parseroute_ID, $payload);
     }
-
 }

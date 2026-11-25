@@ -7,15 +7,15 @@ namespace MailjetSDK\DTOs\GetV3;
 final class TemplateIdDetailcontentPathParams extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'template_ID',
-];
+        'template_ID',
+    ];
 
     protected const array PROPERTY_MAP = [
-    'Owner_Type|Template_Name' => 'Owner_TypeTemplate_Name',
-];
+        'Owner_Type|Template_Name' => 'Owner_TypeTemplate_Name',
+    ];
     protected const array WIRE_PROPERTY_MAP = [
-    'Owner_TypeTemplate_Name' => 'Owner_Type|Template_Name',
-];
+        'Owner_TypeTemplate_Name' => 'Owner_Type|Template_Name',
+    ];
 
     /**
      * A combination of the `OwnerType` and user-selected name for the template you want to update the contents of, separated with a vertial line. E.g. `user|Weekly Newsletter`. Can be used as an alternative to `template_ID`.

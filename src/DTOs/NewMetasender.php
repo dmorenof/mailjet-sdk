@@ -7,8 +7,8 @@ namespace MailjetSDK\DTOs;
 final class NewMetasender extends \MailjetSDK\DTOs\Base\Metasender
 {
     public const array REQUIRED_FIELDS = [
-    'Email',
-];
+        'Email',
+    ];
 
     /**
      * The email address for this metasender. To register a domain instead of a single email address, use an asterisk for the local part - e.g. `*&#64;domain.com`.

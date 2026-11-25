@@ -312,5 +312,4 @@ final class Contactfilter extends \MailjetSDK\Client
         $result = $this->executeBody(self::operation(self::PUT_BY_CONTACTFILTER_ID), $payload, path: ['contactfilter_ID' => $contactfilter_ID]);
         return $result;
     }
-
 }

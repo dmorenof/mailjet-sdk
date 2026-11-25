@@ -21,5 +21,4 @@ final class Openstatistics extends \MailjetSDK\MailjetAPISDK
     {
         return self::client()->resource(\MailjetSDK\Resources\V3\REST\Openstatistics::class)->get($params);
     }
-
 }

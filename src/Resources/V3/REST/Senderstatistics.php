@@ -129,5 +129,4 @@ final class Senderstatistics extends \MailjetSDK\Client
         $result = $this->executeArguments(self::operation(self::GET_BY_SENDER_ID), path: ['sender_ID' => $sender_ID]);
         return $result;
     }
-
 }

@@ -7,8 +7,8 @@ namespace MailjetSDK\DTOs\DeleteV3;
 final class CampaigndraftIdSchedulePathParams extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'draft_ID',
-];
+        'draft_ID',
+    ];
 
     /**
      * Unique numeric ID for the campaign draft you want to cancel the scheduling of.

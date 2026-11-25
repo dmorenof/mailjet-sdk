@@ -16,5 +16,4 @@ final class Status extends \MailjetSDK\MailjetAPISDK
     {
         return self::client()->resource(\MailjetSDK\Resources\V3\REST\Campaigndraft\ByDraftID\Status::class)->get($draft_ID);
     }
-
 }

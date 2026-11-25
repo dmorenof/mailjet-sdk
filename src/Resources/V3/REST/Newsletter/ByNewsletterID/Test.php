@@ -73,5 +73,4 @@ final class Test extends \MailjetSDK\Client
         $result = func_num_args() > 1 ? $this->executeBody(self::operation(self::POST), $payload, path: ['newsletter_ID' => $newsletter_ID]) : $this->executeArguments(self::operation(self::POST), path: ['newsletter_ID' => $newsletter_ID]);
         return $result;
     }
-
 }

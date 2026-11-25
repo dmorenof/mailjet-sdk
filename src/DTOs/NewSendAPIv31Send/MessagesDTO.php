@@ -7,18 +7,18 @@ namespace MailjetSDK\DTOs\NewSendAPIv31Send;
 final class MessagesDTO extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'From',
-    'To',
-];
+        'From',
+        'To',
+    ];
 
     protected const array VALIDATION = [
-    'CustomID' => [
-        'maxLength' => 64,
-    ],
-    'Subject' => [
-        'maxLength' => 255,
-    ],
-];
+        'CustomID' => [
+            'maxLength' => 64,
+        ],
+        'Subject' => [
+            'maxLength' => 255,
+        ],
+    ];
 
     /**
      * A JSON array containing descriptions of the files attached to this message. The array contains the Filename, Content type and Base64 encoded content of the file. The total size of the API call payload - including all attachments, inline attachments and message content - should not exceed 15 MB.

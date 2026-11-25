@@ -7,8 +7,8 @@ namespace MailjetSDK\DTOs\GetV3;
 final class BouncestatisticsIdPathParams extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'message_ID',
-];
+        'message_ID',
+    ];
 
     /**
      * Unique numeric ID of the bounced message you want to retrieve information about.

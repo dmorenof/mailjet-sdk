@@ -37,5 +37,4 @@ final class Liststatistics extends \MailjetSDK\MailjetAPISDK
     {
         return self::client()->resource(\MailjetSDK\Resources\V3\REST\Liststatistics::class)->getByListID($list_ID);
     }
-
 }

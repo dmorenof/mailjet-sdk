@@ -306,5 +306,4 @@ final class Listrecipient extends \MailjetSDK\Client
         $result = $this->executeBody(self::operation(self::PUT_BY_LISTRECIPIENT_ID), $payload, path: ['listrecipient_ID' => $listrecipient_ID]);
         return $result;
     }
-
 }

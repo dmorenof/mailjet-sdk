@@ -7,8 +7,8 @@ namespace MailjetSDK\DTOs\GetV3;
 final class ListstatisticsIdPathParams extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'list_ID',
-];
+        'list_ID',
+    ];
 
     /**
      * Unique numeric ID assigned to this contact list.

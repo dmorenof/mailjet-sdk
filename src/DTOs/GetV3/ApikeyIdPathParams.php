@@ -7,8 +7,8 @@ namespace MailjetSDK\DTOs\GetV3;
 final class ApikeyIdPathParams extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'apikey_ID',
-];
+        'apikey_ID',
+    ];
 
     /**
      * The API Key you want to retrieve. Can be used as an alternative to `apikey_ID`.

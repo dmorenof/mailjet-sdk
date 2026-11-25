@@ -7,8 +7,8 @@ namespace MailjetSDK\DTOs\GetV3;
 final class ContactIdGetcontactslistsPathParams extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'contact_ID',
-];
+        'contact_ID',
+    ];
 
     /**
      * Unique numeric ID of the contact you want to retrieve the contact lists for.

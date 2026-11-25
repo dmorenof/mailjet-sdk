@@ -7,8 +7,8 @@ namespace MailjetSDK\DTOs\PostV3;
 final class ContactIdManagecontactslistsPathParams extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'contact_ID',
-];
+        'contact_ID',
+    ];
 
     /**
      * Unique numeric ID of the contact you want to manage the subscription status of.

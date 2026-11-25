@@ -16,5 +16,4 @@ final class Messagehistory extends \MailjetSDK\MailjetAPISDK
     {
         return self::client()->resource(\MailjetSDK\Resources\V3\REST\Messagehistory::class)->getByMessageID($message_ID);
     }
-
 }

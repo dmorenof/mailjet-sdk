@@ -19,5 +19,4 @@ final class Clickstatistics extends \MailjetSDK\MailjetAPISDK
     {
         return self::client()->resource(\MailjetSDK\Resources\V3\REST\Clickstatistics::class)->get($params);
     }
-
 }

@@ -7,13 +7,13 @@ namespace MailjetSDK\DTOs\Base;
 class NewsletterDetailcontent extends \Dmorenof\SdkRuntime\DTO
 {
     protected const array PROPERTY_MAP = [
-    'Html-part' => 'HtmlPart',
-    'Text-part' => 'TextPart',
-];
+        'Html-part' => 'HtmlPart',
+        'Text-part' => 'TextPart',
+    ];
     protected const array WIRE_PROPERTY_MAP = [
-    'HtmlPart' => 'Html-part',
-    'TextPart' => 'Text-part',
-];
+        'HtmlPart' => 'Html-part',
+        'TextPart' => 'Text-part',
+    ];
 
     /**
      * The HTML-formatted part of the message.

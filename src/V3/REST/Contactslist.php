@@ -60,5 +60,4 @@ final class Contactslist extends \MailjetSDK\MailjetAPISDK
     {
         return self::client()->resource(\MailjetSDK\Resources\V3\REST\Contactslist::class)->putByListID($list_ID, $payload);
     }
-
 }

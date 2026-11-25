@@ -128,5 +128,4 @@ final class Verify extends \MailjetSDK\Client
         $result = $this->executeArguments(self::operation(self::GET_BY_JOB_ID), path: $identifier);
         return $result;
     }
-
 }

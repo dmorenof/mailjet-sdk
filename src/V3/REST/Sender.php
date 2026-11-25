@@ -66,5 +66,4 @@ final class Sender extends \MailjetSDK\MailjetAPISDK
     {
         return self::client()->resource(\MailjetSDK\Resources\V3\REST\Sender::class)->putBySenderID($sender_ID, $payload);
     }
-
 }

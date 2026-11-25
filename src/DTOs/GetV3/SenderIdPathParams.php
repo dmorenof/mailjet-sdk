@@ -7,8 +7,8 @@ namespace MailjetSDK\DTOs\GetV3;
 final class SenderIdPathParams extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'sender_ID',
-];
+        'sender_ID',
+    ];
 
     /**
      * Unique numeric ID of the sender you want to retrieve details about.

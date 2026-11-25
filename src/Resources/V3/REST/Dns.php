@@ -119,5 +119,4 @@ final class Dns extends \MailjetSDK\Client
         $result = $this->executeArguments(self::operation(self::GET_BY_DNS_ID), path: ['dns_ID' => $dns_ID]);
         return $result;
     }
-
 }

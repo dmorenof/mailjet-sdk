@@ -65,5 +65,4 @@ final class Validate extends \MailjetSDK\Client
         $result = $this->executeArguments(self::operation(self::POST), path: ['sender_ID' => $sender_ID]);
         return $result;
     }
-
 }

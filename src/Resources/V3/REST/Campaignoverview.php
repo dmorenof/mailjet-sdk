@@ -119,5 +119,4 @@ final class Campaignoverview extends \MailjetSDK\Client
         $result = $this->executeArguments(self::operation(self::GET_BY_ID), path: ['ID' => $ID]);
         return $result;
     }
-
 }

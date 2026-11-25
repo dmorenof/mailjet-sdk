@@ -7,27 +7,27 @@ namespace MailjetSDK\GetParams\V3\REST;
 final class Toplinkclicked extends \Dmorenof\SdkRuntime\DTO
 {
     public const array OPERATION_FIELDS = [
-    'path' => [],
-    'query' => [
-        'ActualClicks' => 'ActualClicks',
-        'CampaignID' => 'CampaignID',
-        'Contact' => 'Contact',
-        'ContactsList' => 'ContactsList',
-        'CustomCampaign' => 'CustomCampaign',
-        'From' => 'From',
-        'FromDomain' => 'FromDomain',
-        'FromID' => 'FromID',
-        'FromTS' => 'FromTS',
-        'FromType' => 'FromType',
-        'IsDeleted' => 'IsDeleted',
-        'IsNewsletterTool' => 'IsNewsletterTool',
-        'IsStarred' => 'IsStarred',
-        'Message' => 'Message',
-        'Period' => 'Period',
-        'ToTS' => 'ToTS',
-    ],
-    'header' => [],
-];
+        'path' => [],
+        'query' => [
+            'ActualClicks' => 'ActualClicks',
+            'CampaignID' => 'CampaignID',
+            'Contact' => 'Contact',
+            'ContactsList' => 'ContactsList',
+            'CustomCampaign' => 'CustomCampaign',
+            'From' => 'From',
+            'FromDomain' => 'FromDomain',
+            'FromID' => 'FromID',
+            'FromTS' => 'FromTS',
+            'FromType' => 'FromType',
+            'IsDeleted' => 'IsDeleted',
+            'IsNewsletterTool' => 'IsNewsletterTool',
+            'IsStarred' => 'IsStarred',
+            'Message' => 'Message',
+            'Period' => 'Period',
+            'ToTS' => 'ToTS',
+        ],
+        'header' => [],
+    ];
 
     public ?bool $ActualClicks;
     public ?int $CampaignID;

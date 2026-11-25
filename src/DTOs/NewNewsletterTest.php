@@ -7,8 +7,8 @@ namespace MailjetSDK\DTOs;
 final class NewNewsletterTest extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'Recipients',
-];
+        'Recipients',
+    ];
 
     /**
      * A JSON array of recipient objects containing `Email` and `Name`. Including the recipient Name is optional.

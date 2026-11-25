@@ -7,13 +7,13 @@ namespace MailjetSDK\DTOs\Base;
 class CampaigndraftDetailcontent extends \Dmorenof\SdkRuntime\DTO
 {
     protected const array PROPERTY_MAP = [
-    'Html-part' => 'HtmlPart',
-    'Text-part' => 'TextPart',
-];
+        'Html-part' => 'HtmlPart',
+        'Text-part' => 'TextPart',
+    ];
     protected const array WIRE_PROPERTY_MAP = [
-    'HtmlPart' => 'Html-part',
-    'TextPart' => 'Text-part',
-];
+        'HtmlPart' => 'Html-part',
+        'TextPart' => 'Text-part',
+    ];
 
     /**
      * A JSON object, where you can list all main headers. The header values override

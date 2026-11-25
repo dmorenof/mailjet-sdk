@@ -7,8 +7,8 @@ namespace MailjetSDK\DTOs\PostV3;
 final class ContactslistIdImportlistPathParams extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'list_ID',
-];
+        'list_ID',
+    ];
 
     /**
      * Unique numeric ID assigned to the destination contact list.

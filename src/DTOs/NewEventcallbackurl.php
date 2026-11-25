@@ -7,8 +7,8 @@ namespace MailjetSDK\DTOs;
 final class NewEventcallbackurl extends \MailjetSDK\DTOs\Base\Eventcallbackurl
 {
     public const array REQUIRED_FIELDS = [
-    'Url',
-];
+        'Url',
+    ];
 
     /**
      * The URL used for this object.

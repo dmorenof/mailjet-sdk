@@ -7,8 +7,8 @@ namespace MailjetSDK\DTOs\NewMessageSendAPIv3Send;
 final class RecipientsDTO extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'Email',
-];
+        'Email',
+    ];
 
     /**
      * The email address of the recipient.

@@ -312,5 +312,4 @@ final class Sender extends \MailjetSDK\Client
         $result = $this->executeBody(self::operation(self::PUT_BY_SENDER_ID), $payload, path: ['sender_ID' => $sender_ID]);
         return $result;
     }
-
 }

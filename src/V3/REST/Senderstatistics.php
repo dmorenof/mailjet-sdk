@@ -37,5 +37,4 @@ final class Senderstatistics extends \MailjetSDK\MailjetAPISDK
     {
         return self::client()->resource(\MailjetSDK\Resources\V3\REST\Senderstatistics::class)->getBySenderID($sender_ID);
     }
-
 }

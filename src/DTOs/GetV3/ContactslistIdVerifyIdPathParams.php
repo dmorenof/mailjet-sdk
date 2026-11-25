@@ -7,9 +7,9 @@ namespace MailjetSDK\DTOs\GetV3;
 final class ContactslistIdVerifyIdPathParams extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'job_ID',
-    'list_ID',
-];
+        'job_ID',
+        'list_ID',
+    ];
 
     /**
      * Job ID assigned to a `POST /contactslist/{list_id}/verify` request. Use it to monitor the progress and success of the request.

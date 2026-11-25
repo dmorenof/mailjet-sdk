@@ -27,5 +27,4 @@ final class Contactstatistics extends \MailjetSDK\MailjetAPISDK
     {
         return self::client()->resource(\MailjetSDK\Resources\V3\REST\Contactstatistics::class)->getByContactID($contact_ID);
     }
-
 }

@@ -10,11 +10,11 @@ namespace MailjetSDK\DTOs\Base\TemplateDetailcontent;
 final class HeadersDTO extends \Dmorenof\SdkRuntime\DTO
 {
     protected const array PROPERTY_MAP = [
-    'Reply-to' => 'ReplyTo',
-];
+        'Reply-to' => 'ReplyTo',
+    ];
     protected const array WIRE_PROPERTY_MAP = [
-    'ReplyTo' => 'Reply-to',
-];
+        'ReplyTo' => 'Reply-to',
+    ];
 
     /**
      * Value should include the sender name and/or email address in the following formats - `john&#64;example.com` or `<john&#64;example.com>` or `"John Doe" <john&#64;example.com>`.

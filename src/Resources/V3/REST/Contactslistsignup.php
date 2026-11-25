@@ -119,5 +119,4 @@ final class Contactslistsignup extends \MailjetSDK\Client
         $result = $this->executeArguments(self::operation(self::GET_BY_SIGNUPREQUEST_ID), path: ['signuprequest_ID' => $signuprequest_ID]);
         return $result;
     }
-
 }

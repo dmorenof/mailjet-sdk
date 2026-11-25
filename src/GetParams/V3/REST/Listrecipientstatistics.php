@@ -7,30 +7,30 @@ namespace MailjetSDK\GetParams\V3\REST;
 final class Listrecipientstatistics extends \Dmorenof\SdkRuntime\DTO
 {
     public const array OPERATION_FIELDS = [
-    'path' => [],
-    'query' => [
-        'Blocked' => 'Blocked',
-        'Bounced' => 'Bounced',
-        'Click' => 'Click',
-        'Contact' => 'Contact',
-        'ContactsList' => 'ContactsList',
-        'IsExcludedFromCampaigns' => 'IsExcludedFromCampaigns',
-        'IsUnsubscribed' => 'IsUnsubscribed',
-        'LastActivityAt' => 'LastActivityAt',
-        'MaxLastActivityAt' => 'MaxLastActivityAt',
-        'MaxUnsubscribedAt' => 'MaxUnsubscribedAt',
-        'MinLastActivityAt' => 'MinLastActivityAt',
-        'MinUnsubscribedAt' => 'MinUnsubscribedAt',
-        'Open' => 'Open',
-        'Queued' => 'Queued',
-        'Sent' => 'Sent',
-        'ShowExtraData' => 'ShowExtraData',
-        'Spam' => 'Spam',
-        'TimeZone' => 'TimeZone',
-        'Unsubscribed' => 'Unsubscribed',
-    ],
-    'header' => [],
-];
+        'path' => [],
+        'query' => [
+            'Blocked' => 'Blocked',
+            'Bounced' => 'Bounced',
+            'Click' => 'Click',
+            'Contact' => 'Contact',
+            'ContactsList' => 'ContactsList',
+            'IsExcludedFromCampaigns' => 'IsExcludedFromCampaigns',
+            'IsUnsubscribed' => 'IsUnsubscribed',
+            'LastActivityAt' => 'LastActivityAt',
+            'MaxLastActivityAt' => 'MaxLastActivityAt',
+            'MaxUnsubscribedAt' => 'MaxUnsubscribedAt',
+            'MinLastActivityAt' => 'MinLastActivityAt',
+            'MinUnsubscribedAt' => 'MinUnsubscribedAt',
+            'Open' => 'Open',
+            'Queued' => 'Queued',
+            'Sent' => 'Sent',
+            'ShowExtraData' => 'ShowExtraData',
+            'Spam' => 'Spam',
+            'TimeZone' => 'TimeZone',
+            'Unsubscribed' => 'Unsubscribed',
+        ],
+        'header' => [],
+    ];
 
     public ?bool $Blocked;
     public ?bool $Bounced;

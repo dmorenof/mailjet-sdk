@@ -7,26 +7,26 @@ namespace MailjetSDK\GetParams\V3\REST;
 final class Newsletter extends \Dmorenof\SdkRuntime\DTO
 {
     public const array OPERATION_FIELDS = [
-    'path' => [],
-    'query' => [
-        'AXTesting' => 'AXTesting',
-        'Campaign' => 'Campaign',
-        'ContactsList' => 'ContactsList',
-        'DeliveredAt' => 'DeliveredAt',
-        'EditMode' => 'EditMode',
-        'IsArchived' => 'IsArchived',
-        'IsCampaign' => 'IsCampaign',
-        'IsDeleted' => 'IsDeleted',
-        'IsHandled' => 'IsHandled',
-        'IsStarred' => 'IsStarred',
-        'Modified' => 'Modified',
-        'NewsLetterTemplate' => 'NewsLetterTemplate',
-        'Segmentation' => 'Segmentation',
-        'Status' => 'Status',
-        'Subject' => 'Subject',
-    ],
-    'header' => [],
-];
+        'path' => [],
+        'query' => [
+            'AXTesting' => 'AXTesting',
+            'Campaign' => 'Campaign',
+            'ContactsList' => 'ContactsList',
+            'DeliveredAt' => 'DeliveredAt',
+            'EditMode' => 'EditMode',
+            'IsArchived' => 'IsArchived',
+            'IsCampaign' => 'IsCampaign',
+            'IsDeleted' => 'IsDeleted',
+            'IsHandled' => 'IsHandled',
+            'IsStarred' => 'IsStarred',
+            'Modified' => 'Modified',
+            'NewsLetterTemplate' => 'NewsLetterTemplate',
+            'Segmentation' => 'Segmentation',
+            'Status' => 'Status',
+            'Subject' => 'Subject',
+        ],
+        'header' => [],
+    ];
 
     public ?int $AXTesting;
     public ?int $Campaign;

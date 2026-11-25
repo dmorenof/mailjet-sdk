@@ -7,8 +7,8 @@ namespace MailjetSDK\DTOs;
 final class NewContact extends \MailjetSDK\DTOs\Base\Contact
 {
     public const array REQUIRED_FIELDS = [
-    'Email',
-];
+        'Email',
+    ];
 
     /**
      * Contact email address. Must be unique (not present already in the global contact list).

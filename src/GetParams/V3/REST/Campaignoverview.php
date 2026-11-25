@@ -7,20 +7,20 @@ namespace MailjetSDK\GetParams\V3\REST;
 final class Campaignoverview extends \Dmorenof\SdkRuntime\DTO
 {
     public const array OPERATION_FIELDS = [
-    'path' => [],
-    'query' => [
-        'All' => 'All',
-        'Archived' => 'Archived',
-        'Drafts' => 'Drafts',
-        'ID' => 'ID',
-        'IDType' => 'IDType',
-        'Programmed' => 'Programmed',
-        'Sent' => 'Sent',
-        'Starred' => 'Starred',
-        'Subject' => 'Subject',
-    ],
-    'header' => [],
-];
+        'path' => [],
+        'query' => [
+            'All' => 'All',
+            'Archived' => 'Archived',
+            'Drafts' => 'Drafts',
+            'ID' => 'ID',
+            'IDType' => 'IDType',
+            'Programmed' => 'Programmed',
+            'Sent' => 'Sent',
+            'Starred' => 'Starred',
+            'Subject' => 'Subject',
+        ],
+        'header' => [],
+    ];
 
     public ?bool $All;
     public ?bool $Archived;

@@ -256,5 +256,4 @@ final class Newsletter extends \MailjetSDK\Client
         $result = $this->executeBody(self::operation(self::PUT_BY_NEWSLETTER_ID), $payload, path: ['newsletter_ID' => $newsletter_ID]);
         return $result;
     }
-
 }

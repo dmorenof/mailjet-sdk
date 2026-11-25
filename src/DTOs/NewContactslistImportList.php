@@ -7,9 +7,9 @@ namespace MailjetSDK\DTOs;
 final class NewContactslistImportList extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'Action',
-    'ListID',
-];
+        'Action',
+        'ListID',
+    ];
 
     /**
      * Action to be performed on the destination list:

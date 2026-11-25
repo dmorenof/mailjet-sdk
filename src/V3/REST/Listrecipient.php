@@ -60,5 +60,4 @@ final class Listrecipient extends \MailjetSDK\MailjetAPISDK
     {
         return self::client()->resource(\MailjetSDK\Resources\V3\REST\Listrecipient::class)->putByListrecipientID($listrecipient_ID, $payload);
     }
-
 }

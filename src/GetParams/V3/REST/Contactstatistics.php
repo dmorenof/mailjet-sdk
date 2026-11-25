@@ -7,26 +7,26 @@ namespace MailjetSDK\GetParams\V3\REST;
 final class Contactstatistics extends \Dmorenof\SdkRuntime\DTO
 {
     public const array OPERATION_FIELDS = [
-    'path' => [],
-    'query' => [
-        'Blocked' => 'Blocked',
-        'Bounced' => 'Bounced',
-        'Click' => 'Click',
-        'Deferred' => 'Deferred',
-        'Hardbounced' => 'Hardbounced',
-        'LastActivityAt' => 'LastActivityAt',
-        'MaxLastActivityAt' => 'MaxLastActivityAt',
-        'MinLastActivityAt' => 'MinLastActivityAt',
-        'Open' => 'Open',
-        'Queued' => 'Queued',
-        'Recalculate' => 'Recalculate',
-        'Sent' => 'Sent',
-        'Softbounced' => 'Softbounced',
-        'Spam' => 'Spam',
-        'Unsubscribed' => 'Unsubscribed',
-    ],
-    'header' => [],
-];
+        'path' => [],
+        'query' => [
+            'Blocked' => 'Blocked',
+            'Bounced' => 'Bounced',
+            'Click' => 'Click',
+            'Deferred' => 'Deferred',
+            'Hardbounced' => 'Hardbounced',
+            'LastActivityAt' => 'LastActivityAt',
+            'MaxLastActivityAt' => 'MaxLastActivityAt',
+            'MinLastActivityAt' => 'MinLastActivityAt',
+            'Open' => 'Open',
+            'Queued' => 'Queued',
+            'Recalculate' => 'Recalculate',
+            'Sent' => 'Sent',
+            'Softbounced' => 'Softbounced',
+            'Spam' => 'Spam',
+            'Unsubscribed' => 'Unsubscribed',
+        ],
+        'header' => [],
+    ];
 
     public ?bool $Blocked;
     public ?bool $Bounced;

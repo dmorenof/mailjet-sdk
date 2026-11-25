@@ -7,13 +7,13 @@ namespace MailjetSDK;
 class Client extends \Dmorenof\SdkRuntime\ApiClient
 {
     protected const array SECURITY_SCHEMES = [
-    'basicAuth' => [
-        'type' => 'http',
-        'scheme' => 'basic',
-        'location' => null,
-        'parameterName' => null,
-    ],
-];
+        'basicAuth' => [
+            'type' => 'http',
+            'scheme' => 'basic',
+            'location' => null,
+            'parameterName' => null,
+        ],
+    ];
 
     private static ?self $currentConnection = null;
 

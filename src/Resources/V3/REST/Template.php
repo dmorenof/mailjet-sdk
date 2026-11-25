@@ -306,5 +306,4 @@ final class Template extends \MailjetSDK\Client
         $result = $this->executeBody(self::operation(self::PUT_BY_TEMPLATE_ID), $payload, path: ['template_ID' => $template_ID]);
         return $result;
     }
-
 }

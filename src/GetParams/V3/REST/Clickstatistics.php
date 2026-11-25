@@ -7,27 +7,27 @@ namespace MailjetSDK\GetParams\V3\REST;
 final class Clickstatistics extends \Dmorenof\SdkRuntime\DTO
 {
     public const array OPERATION_FIELDS = [
-    'path' => [],
-    'query' => [
-        'CampaignID' => 'CampaignID',
-        'ContactsList' => 'ContactsList',
-        'CustomCampaign' => 'CustomCampaign',
-        'EventFromTs' => 'EventFromTs',
-        'EventToTs' => 'EventToTs',
-        'From' => 'From',
-        'FromDomain' => 'FromDomain',
-        'FromID' => 'FromID',
-        'FromTS' => 'FromTS',
-        'FromType' => 'FromType',
-        'IsDeleted' => 'IsDeleted',
-        'IsNewsletterTool' => 'IsNewsletterTool',
-        'MessageID' => 'MessageID',
-        'MessageStatus' => 'MessageStatus',
-        'Period' => 'Period',
-        'ToTS' => 'ToTS',
-    ],
-    'header' => [],
-];
+        'path' => [],
+        'query' => [
+            'CampaignID' => 'CampaignID',
+            'ContactsList' => 'ContactsList',
+            'CustomCampaign' => 'CustomCampaign',
+            'EventFromTs' => 'EventFromTs',
+            'EventToTs' => 'EventToTs',
+            'From' => 'From',
+            'FromDomain' => 'FromDomain',
+            'FromID' => 'FromID',
+            'FromTS' => 'FromTS',
+            'FromType' => 'FromType',
+            'IsDeleted' => 'IsDeleted',
+            'IsNewsletterTool' => 'IsNewsletterTool',
+            'MessageID' => 'MessageID',
+            'MessageStatus' => 'MessageStatus',
+            'Period' => 'Period',
+            'ToTS' => 'ToTS',
+        ],
+        'header' => [],
+    ];
 
     public ?int $CampaignID;
     public ?int $ContactsList;

@@ -7,8 +7,8 @@ namespace MailjetSDK\DTOs\GetV3;
 final class CampaigngraphstatisticsIdPathParams extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'campaign_ID',
-];
+        'campaign_ID',
+    ];
 
     /**
      * Unique numeric ID for this campaign you want to retrieve the stats evolution for.

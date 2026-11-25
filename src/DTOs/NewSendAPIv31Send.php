@@ -7,8 +7,8 @@ namespace MailjetSDK\DTOs;
 final class NewSendAPIv31Send extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'Messages',
-];
+        'Messages',
+    ];
 
     /**
      * When true, enables additional error checks relating to the Send API v3.1 payload. Keep in mind that For a list of all error checks enabled by this, please see the [Send API errors](/docs/email-api/send-api-v31/send-api-errors) section in the Email API Guides.

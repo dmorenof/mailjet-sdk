@@ -30,5 +30,4 @@ final class Detailcontent extends \MailjetSDK\MailjetAPISDK
     {
         return self::client()->resource(\MailjetSDK\Resources\V3\REST\Campaigndraft\ByDraftID\Detailcontent::class)->post($draft_ID, $payload);
     }
-
 }

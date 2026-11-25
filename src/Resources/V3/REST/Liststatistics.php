@@ -129,5 +129,4 @@ final class Liststatistics extends \MailjetSDK\Client
         $result = $this->executeArguments(self::operation(self::GET_BY_LIST_ID), path: ['list_ID' => $list_ID]);
         return $result;
     }
-
 }

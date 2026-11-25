@@ -27,5 +27,4 @@ final class Dns extends \MailjetSDK\MailjetAPISDK
     {
         return self::client()->resource(\MailjetSDK\Resources\V3\REST\Dns::class)->getByDnsID($dns_ID);
     }
-
 }

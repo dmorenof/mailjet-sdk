@@ -7,8 +7,8 @@ namespace MailjetSDK\DTOs\DeleteV3;
 final class EventcallbackurlIdPathParams extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'url_ID',
-];
+        'url_ID',
+    ];
 
     /**
      * Unique numeric ID for the callback URL you want to delete.

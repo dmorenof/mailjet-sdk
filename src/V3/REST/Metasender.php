@@ -55,5 +55,4 @@ final class Metasender extends \MailjetSDK\MailjetAPISDK
     {
         return self::client()->resource(\MailjetSDK\Resources\V3\REST\Metasender::class)->putByMetasenderID($metasender_ID, $payload);
     }
-
 }

@@ -7,8 +7,8 @@ namespace MailjetSDK\DTOs\PutV3;
 final class ApikeyIdPathParams extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'apikey_ID',
-];
+        'apikey_ID',
+    ];
 
     /**
      * The API Key you want to update. Can be used as an alternative to `apikey_ID`.

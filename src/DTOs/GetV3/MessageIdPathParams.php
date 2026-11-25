@@ -7,8 +7,8 @@ namespace MailjetSDK\DTOs\GetV3;
 final class MessageIdPathParams extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'message_ID',
-];
+        'message_ID',
+    ];
 
     /**
      * Unique numeric ID of the message you want to retrieve.

@@ -7,8 +7,8 @@ namespace MailjetSDK\DTOs\GetV3;
 final class OpeninformationIdPathParams extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'message_ID',
-];
+        'message_ID',
+    ];
 
     /**
      * Unique numeric ID of the message you want to retrieve the open event information about.

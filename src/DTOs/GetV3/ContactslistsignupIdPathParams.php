@@ -7,8 +7,8 @@ namespace MailjetSDK\DTOs\GetV3;
 final class ContactslistsignupIdPathParams extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'signuprequest_ID',
-];
+        'signuprequest_ID',
+    ];
 
     /**
      * Unique numeric ID assigned to this subscription request.

@@ -37,5 +37,4 @@ final class Campaigngraphstatistics extends \MailjetSDK\MailjetAPISDK
     {
         return self::client()->resource(\MailjetSDK\Resources\V3\REST\Campaigngraphstatistics::class)->getByCampaignID($campaign_ID, $params);
     }
-
 }

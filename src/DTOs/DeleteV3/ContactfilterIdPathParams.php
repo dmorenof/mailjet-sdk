@@ -7,8 +7,8 @@ namespace MailjetSDK\DTOs\DeleteV3;
 final class ContactfilterIdPathParams extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'contactfilter_ID',
-];
+        'contactfilter_ID',
+    ];
 
     /**
      * Unique numeric ID for the segment you want to delete.

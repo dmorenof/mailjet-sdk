@@ -18,5 +18,4 @@ final class Send extends \MailjetSDK\MailjetAPISDK
     {
         return self::client()->resource(\MailjetSDK\Resources\V3\REST\Newsletter\ByNewsletterID\Send::class)->post($newsletter_ID);
     }
-
 }

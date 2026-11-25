@@ -7,9 +7,9 @@ namespace MailjetSDK\DTOs;
 final class NewListrecipient extends \MailjetSDK\DTOs\Base\Listrecipient
 {
     public const array REQUIRED_FIELDS = [
-    'ContactID',
-    'ListID',
-];
+        'ContactID',
+        'ListID',
+    ];
 
     /**
      * The email address of the contact the list recipient is linked to. Interchangeable with `ContactID`.

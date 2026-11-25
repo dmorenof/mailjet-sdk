@@ -7,8 +7,8 @@ namespace MailjetSDK\DTOs;
 final class NewApikey extends \MailjetSDK\DTOs\Base\Apikey
 {
     public const array REQUIRED_FIELDS = [
-    'Name',
-];
+        'Name',
+    ];
 
     /**
      * User readable name for this API Key.

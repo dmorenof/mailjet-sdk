@@ -65,5 +65,4 @@ final class Useragentstatistics extends \MailjetSDK\Client
         $result = $this->executeArguments(self::operation(self::GET), parameters: $params);
         return $result;
     }
-
 }

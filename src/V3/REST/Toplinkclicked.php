@@ -19,5 +19,4 @@ final class Toplinkclicked extends \MailjetSDK\MailjetAPISDK
     {
         return self::client()->resource(\MailjetSDK\Resources\V3\REST\Toplinkclicked::class)->get($params);
     }
-
 }

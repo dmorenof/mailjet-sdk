@@ -7,25 +7,25 @@ namespace MailjetSDK\GetParams\V3\REST;
 final class Message extends \Dmorenof\SdkRuntime\DTO
 {
     public const array OPERATION_FIELDS = [
-    'path' => [],
-    'query' => [
-        'Campaign' => 'Campaign',
-        'Contact' => 'Contact',
-        'CustomID' => 'CustomID',
-        'Destination' => 'Destination',
-        'FromTS' => 'FromTS',
-        'FromType' => 'FromType',
-        'MessageState' => 'MessageState',
-        'MessageStatus' => 'MessageStatus',
-        'PlanSubscription' => 'PlanSubscription',
-        'SenderID' => 'SenderID',
-        'ShowContactAlt' => 'ShowContactAlt',
-        'ShowCustomID' => 'ShowCustomID',
-        'ShowSubject' => 'ShowSubject',
-        'ToTS' => 'ToTS',
-    ],
-    'header' => [],
-];
+        'path' => [],
+        'query' => [
+            'Campaign' => 'Campaign',
+            'Contact' => 'Contact',
+            'CustomID' => 'CustomID',
+            'Destination' => 'Destination',
+            'FromTS' => 'FromTS',
+            'FromType' => 'FromType',
+            'MessageState' => 'MessageState',
+            'MessageStatus' => 'MessageStatus',
+            'PlanSubscription' => 'PlanSubscription',
+            'SenderID' => 'SenderID',
+            'ShowContactAlt' => 'ShowContactAlt',
+            'ShowCustomID' => 'ShowCustomID',
+            'ShowSubject' => 'ShowSubject',
+            'ToTS' => 'ToTS',
+        ],
+        'header' => [],
+    ];
 
     public ?int $Campaign;
     public ?int $Contact;

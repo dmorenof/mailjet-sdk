@@ -191,5 +191,4 @@ final class Csvimport extends \MailjetSDK\Client
         $result = $this->executeBody(self::operation(self::PUT_BY_IMPORTJOB_ID), $payload, path: ['importjob_ID' => $importjob_ID]);
         return $result;
     }
-
 }

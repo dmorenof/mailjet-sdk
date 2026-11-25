@@ -71,5 +71,4 @@ final class Send extends \MailjetSDK\Client
         $result = $this->executeBody(self::operation(self::POST), $payload);
         return $result;
     }
-
 }

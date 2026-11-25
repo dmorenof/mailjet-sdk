@@ -7,8 +7,8 @@ namespace MailjetSDK\DTOs;
 final class ArrayCampaigndraftTestRecipients extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'Email',
-];
+        'Email',
+    ];
 
     /**
      * Email address of the recipient.

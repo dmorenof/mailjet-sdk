@@ -7,8 +7,8 @@ namespace MailjetSDK\DTOs\PostV3;
 final class DnsIdCheckPathParams extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'dns_ID',
-];
+        'dns_ID',
+    ];
 
     /**
      * Unique numeric ID of the DNS settings of the sender domain you want to validate.

@@ -57,5 +57,4 @@ final class Newsletter extends \MailjetSDK\MailjetAPISDK
     {
         return self::client()->resource(\MailjetSDK\Resources\V3\REST\Newsletter::class)->putByNewsletterID($newsletter_ID, $payload);
     }
-
 }

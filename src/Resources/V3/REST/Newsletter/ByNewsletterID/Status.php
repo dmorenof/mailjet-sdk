@@ -64,5 +64,4 @@ final class Status extends \MailjetSDK\Client
         $result = $this->executeArguments(self::operation(self::GET), path: ['newsletter_ID' => $newsletter_ID]);
         return $result;
     }
-
 }

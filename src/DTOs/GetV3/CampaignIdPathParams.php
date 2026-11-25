@@ -7,8 +7,8 @@ namespace MailjetSDK\DTOs\GetV3;
 final class CampaignIdPathParams extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'campaign_ID',
-];
+        'campaign_ID',
+    ];
 
     /**
      * The `CustomValue` of the campaign you want to retrieve. Can be used as an alternative to `campaign_ID`.

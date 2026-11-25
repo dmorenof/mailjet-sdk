@@ -60,5 +60,4 @@ final class Contactmetadata extends \MailjetSDK\MailjetAPISDK
     {
         return self::client()->resource(\MailjetSDK\Resources\V3\REST\Contactmetadata::class)->putByContactmetadataID($contactmetadata_ID, $payload);
     }
-
 }

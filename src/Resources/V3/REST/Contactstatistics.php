@@ -119,5 +119,4 @@ final class Contactstatistics extends \MailjetSDK\Client
         $result = $this->executeArguments(self::operation(self::GET_BY_CONTACT_ID), path: ['contact_ID' => $contact_ID]);
         return $result;
     }
-
 }

@@ -306,5 +306,4 @@ final class Contactslist extends \MailjetSDK\Client
         $result = $this->executeBody(self::operation(self::PUT_BY_LIST_ID), $payload, path: ['list_ID' => $list_ID]);
         return $result;
     }
-
 }

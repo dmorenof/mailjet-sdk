@@ -38,5 +38,4 @@ final class Csvimport extends \MailjetSDK\MailjetAPISDK
     {
         return self::client()->resource(\MailjetSDK\Resources\V3\REST\Csvimport::class)->putByImportjobID($importjob_ID, $payload);
     }
-
 }

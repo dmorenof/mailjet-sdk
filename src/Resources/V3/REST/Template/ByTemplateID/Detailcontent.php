@@ -194,5 +194,4 @@ final class Detailcontent extends \MailjetSDK\Client
         $result = $this->executeBody(self::operation(self::PUT), $payload, path: ['template_ID' => $template_ID]);
         return $result;
     }
-
 }
